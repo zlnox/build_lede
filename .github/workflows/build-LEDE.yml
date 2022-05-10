@@ -36,6 +36,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-20.04
+    permissions:
+      issues: write
 
     steps:
     - name: Checkout
